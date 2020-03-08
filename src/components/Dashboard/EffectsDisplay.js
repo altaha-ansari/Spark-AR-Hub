@@ -2,7 +2,9 @@ import React from 'react';
 import IsMobileView from '../../utils/IsMobileView';
 import { Grid } from '@material-ui/core';
 import EffectCard from './Card';
-import Data from './Data';
+import Data from '../../helpers/Data.js'
+import Table from './EffectsTable';
+
 
 function EffectsDisplay(){
 
@@ -16,7 +18,7 @@ function EffectsDisplay(){
                 </div>
 
     else
-      Display = <div>Ale</div>
+      Display = <Table/>
 
     return Display;
 }

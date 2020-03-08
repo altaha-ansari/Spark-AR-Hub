@@ -75,8 +75,8 @@ export default function EffectsTabsDisplay() {
           onChange={handleChange}
           aria-label="nav tabs example"
         >
-          <LinkTab label="Manage Effects" href="/drafts" {...a11yProps(0)} />
-          <LinkTab label="Insights" href="/trash" {...a11yProps(1)} />
+          <LinkTab label="Manage Effects" href="/Effects" {...a11yProps(0)} />
+          <LinkTab label="Insights" href="/Insights" {...a11yProps(1)} />
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>

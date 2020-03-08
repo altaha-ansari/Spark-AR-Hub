@@ -26,7 +26,7 @@ export default function UploadNew() {
 
   return (
     <div>
-      <Tooltip title="Add" aria-label="add">
+      <Tooltip title="Upload" aria-label="add">
         <Fab className={classes.absolute}>
           <PublishRoundedIcon style={{color: 'white'}}/>
         </Fab>
